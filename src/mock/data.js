@@ -2,16 +2,16 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Jacob Rod | Developer', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
+  description: 'Welcome to my website', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
-  subtitle: '',
+  name: 'Jacob Rod',
+  subtitle: 'Web Developer',
   cta: '',
 };
 
@@ -29,8 +29,17 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
+    title: 'Nemi\'s Pizza',
+    info: 'A mock pizza restaurant site, featuring photos of my homemade pizza AND cat.',
+    info2: '',
+    url: 'nemipizza.com',
+    repo: 'https://github.com/Psykopomp/NemiPizza', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'project.jpg',
+    title: 'Jake\'s Flight Log',
+    info: 'An app to track my flight time.',
     info2: '',
     url: '',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
@@ -38,17 +47,8 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    title: 'Juno\'s Bizarre Adventures',
+    info: 'Follow Juno on his adventures around the world.',
     info2: '',
     url: '',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
@@ -57,9 +57,9 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
-  email: '',
+  cta: 'https://github.com/Psykopomp/',
+  btn: 'https://github.com/Psykopomp/',
+  email: 'jakelearnscode@gmail.com',
 };
 
 // FOOTER DATA
